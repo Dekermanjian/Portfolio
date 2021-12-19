@@ -1,0 +1,184 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{hShot.jpg} % Profile picture
+
+\cvname{Jonathan \newline Dekermanjian} % Your name
+\cvjobtitle{Research Instructor \newline Data Science} % Job title/career
+
+\cvdate{07 November 1989} % Date of birth
+\cvaddress{910 N Downing St.} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{720-903-5057} % Phone number
+\cvsite{} % Personal website
+\cvmail{Jonathan.Dekermanjian@CUAnschutz.edu} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+\aboutme{}
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{SPARK/5.0},{Docker/4.0},{HTML, CSS, \& JavaScript/4.0},{Git/5.0},{SQL/5.5},{Bash/4.0},{SAS/3.0},{Julia/4.0},{Python/6.0},{R/6.0}}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+\skillstext{}
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{05/2021}{Master of Science}{University of Colorado-Anschutz}{\newline Biostatistics}
+	\twentyitem{05/2019}{Master of Science}{University of Colorado-Anschutz}{\newline Biomedical Sciences \& Biotechnology}
+	\twentyitem{12/2014}{Bachelor of Science}{University of Colorado-Denver}{\newline Biology}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+	\twentyitemshort{2021}{Dekermanjian J, Labeikovsky W, Ghosh D, Kechris K. MSCAT: A Machine Learning Assisted Catalog of Metabolomics Software Tools. Metabolites. 2021 Oct 2;11(10):678.doi:10.3390/metabo11100678.PMID:34677393;PMCID:PMC8540572.}
+	\twentyitemshort{2021}{Pfaff, E., Girvin, A., Bennett, T., Bhatia, A., Brooks, I., Deer, R., Dekermanjian, J., Jolley, S., Kahn, M., Kostka, K., McMurry, J., Moffitt, R., Walden, A., Chute, C., \& Haendel, M. (2021). Who has long-COVID? A big data approach. medRxiv.(Pre-print)}
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Collaborations}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{FTE:40\%}{Health Data Compass}{Current}{
+		\begin{itemize}
+			\item Date Shifting \& Truncation Algorithm for De-identification
+			\item Google Cloud Platforms Storage Cost Analysis
+			\item Data Quality Initiative
+		\end{itemize}
+	}
+	\twentyitem{FTE:20\%}{U01 Metabolomics Supplement}{Current}{
+		\begin{itemize}
+			\item Text Mining, Network Generation, and Software Development
+			\item Database \& Software Maintenance and Updates
+		\end{itemize}
+	}
+	\twentyitem{FTE:20\%}{Planned Parenthood}{Current}{
+		\begin{itemize}
+			\item Revenue Forecasting
+			\item Visits Forecasting
+			\item Long-Acting Reversible Contraception Analysis
+		\end{itemize}
+	}
+	\twentyitem{FTE:20\%}{Vascular Surgery}{Current}{
+		\begin{itemize}
+			\item Peripheral Artery Disease; Acute Limb Ischemia Analysis
+		\end{itemize}
+	}
+	\twentyitem{FTE:10\%}{Consulting Center}{Current}{
+		\begin{itemize}
+			\item Rheumatoid Arthritis Interstitial Lung Disease Analysis
+			\item Pediatric Cardiology Software Development
+		\end{itemize}
+	}
+	\twentyitem{FTE:0\%}{National COVID Collaborative Consortium}{End 2021-12-01}{
+		\begin{itemize}
+			\item Long COVID Analysis
+		\end{itemize}
+	}
+
+
+
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+\section{Committees \& Activities}
+\begin{itemize}
+	\item Research Tools Committee
+	\item Omics \& Data Science Committee
+	\item CU Data Week \& Stats Fest Events
+	\item Mechanism-Aware Imputation Poster Session
+	\item Missing Data Talk
+	\item CIDA GitLab Admin Tasks
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
